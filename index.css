@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top , rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50%) , url(./images.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 130vh;
+   background-size: cover;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+  color: orange;
+  font-size: 40x;
+  font-family: cursive;
+ padding-left: 20px;
+ float: left;
+ padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    color: rgb(255, 255, 255);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 64px;
+    margin-top: 27px;
+    font-size: 20px;
+    text-align: center;
+}
+ul li a {
+   text-decoration: none;
+   color: white;
+   font-family: cursive;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: brown;
+}
+.searchBar{
+   width: 330px;
+   float: left;
+   margin-left: 250px;
+}
+ .srch{
+    font-family: 'Courier New';
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 13px;
+    color: white;
+    border-right:none ;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+ }
+.btn{
+    width: 240px ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d77300;
+    cursor: pointer;
+    border: 2px solid #000000; 
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: #321600;
+}
+.btn:focus{
+   outline:none ; 
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+   width: 1200px;
+   height: auto;
+   margin: auto;
+   color: #fff;
+   position: relative;
+}
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family:'Times New Roman';
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cb{
+    width: 160px;
+    height: 40px;
+    background:orangered ;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    border-radius: 10px;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+.content .cb a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease-in-out;
+    font-size: 15px;
+}
+.cb:hover{
+    background-color: white;
+}
+.content span{
+    color:orange ;
+    font-size: 50px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top , rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left:750px ;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form h2{
+    width:220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height:35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid pink;
+    color: white;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px ;
+    height: 40px;
+    background: #ff7200;
+    border:none;
+    margin-top: 40px;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+.btnn:hover{
+    background-color: #321600;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+   font-weight: bold;
+}
+.form .link{
+    font-family: arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color:#ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+btn
